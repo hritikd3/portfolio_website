@@ -103,11 +103,12 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  background: #;
+  background: #212D45;
   padding: 23px;
   border-radius: 15px;
     &:hover {
     background: #3e3f42;
+   transform: translateX(0) scale(1.05);
  
 
 @media ${(props) => props.theme.breakpoints.md}{
