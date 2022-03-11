@@ -12,7 +12,7 @@ const Hero = (props) => (
   Frontend Developer
   </SectionTitle>
   <SectionText >
-    Smashing my keyboard untill something good happens.
+    Final year CS student, love to design UI and explore different tech stacks.
   </SectionText>
   <Button onClick={()=> window.alert("connect now on twitter")} >
     show alert</Button>
