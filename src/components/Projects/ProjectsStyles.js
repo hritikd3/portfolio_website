@@ -58,8 +58,8 @@ export const Hr = styled.hr`
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
+  color: #1a14b8;
+  font-family: "Droid Serif", serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -89,16 +89,15 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
+  color: #ffff;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  background: #8e8bf7;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #6361ad;
+  }
 `;
 
 export const TagList = styled.ul`

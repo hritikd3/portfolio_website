@@ -5,9 +5,19 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+ <Section row nopadding >
+   <LeftSection>
+<SectionTitle main center>
+  Hi I'm  Hritik <br/>
+  Frontend Developer
+  </SectionTitle>
+  <SectionText >
+    Smashing my keyboard untill something good happens.
+  </SectionText>
+  <Button onClick={()=> window.alert("connect now on twitter")} >
+    show alert</Button>
+   </LeftSection>
+   </Section>
 );
 
 export default Hero;
