@@ -33,12 +33,12 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    height: 180px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 180px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -74,12 +74,12 @@ export const BoxText = styled.p`
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: 16px;
+    font-size: 19px;
     line-height: 20px;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
   }
 `

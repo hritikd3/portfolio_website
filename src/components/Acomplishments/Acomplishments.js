@@ -13,7 +13,7 @@ const data = [
   },
   {
    
-    text: "Really Google Adwords is best For Advertising for affiliates?",
+    text: "Really Google Adwords is best For Advertising for affiliates? Read now",
   },
 ];
 
@@ -25,7 +25,7 @@ const Acomplishments = () => (
       {data.map((card, index) => (
         <Box key={index}>
           {/* <BoxNum>{card.title} </BoxNum> */}
-          <BoxText>{card.text}</BoxText><br/> <br/>
+          <BoxText>{card.text}</BoxText><br/> 
           <a href="https://medium.com/@hritikd3">
             <AiFillMediumSquare
               textAlign="center"
