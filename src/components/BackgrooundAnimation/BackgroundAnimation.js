@@ -8,7 +8,7 @@ const BackgroundAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.65">
+      <g opacity="1.65">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -31,9 +31,9 @@ const BackgroundAnimation = () => (
         cx="295.027"
         cy="193.118"
         transform="translate(-295.027 -193.118)"
-        rx="1.07306"
+        rx="5.07306"
         ry="1.07433"
-        fill="#945DD6"
+        fill="#782ed1"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_2" />

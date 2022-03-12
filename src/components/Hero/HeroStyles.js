@@ -10,7 +10,7 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 

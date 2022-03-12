@@ -56,7 +56,7 @@ justify-content: space-between;
 @media ${props => props.theme.breakpoints.sm}{
   display: flex;
 	width: 100%;
-  flex-direction: column;
+  flex-direction: row;
 }
 `
 
@@ -96,7 +96,7 @@ export const Slogan = styled.p`
 	}
 
 	@media ${props => props.theme.breakpoints.sm}{
-		line-height: 22px;
+		line-height: 25px;
 		font-size: 14px;
 		min-width: 100px;
 	}
@@ -108,7 +108,7 @@ export const SocialContainer = styled.div`
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
-		padding-right: 16px;
+		padding-right: 17px;
 		flex-wrap: wrap;
 	}
 `
@@ -146,14 +146,14 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}

@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-import { BsCodeSlash } from 'react-icons/bs';
+import { CgFormatSlash } from "react-icons/cg";
+import { FaLessThan, FaGreaterThan } from "react-icons/fa";
+// import { BsSlashLg } from "react-icons/bs";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons , Span} from './HeaderStyles';
 
@@ -18,7 +19,9 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <BsCodeSlash size="3rem" /> <Span>Hritik Singh</Span>
+          <FaLessThan size="2rem" />
+          <Span>HritikSingh</Span>
+          <CgFormatSlash size="3.3rem"/><FaGreaterThan size="2rem" />
         </a>
       </Link>
     </Div1>

@@ -15,8 +15,11 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Call </LinkTitle>
-          <LinkItem href="tel:093-02320-233">Mail me </LinkItem>
+          <LinkTitle>Let's Connect </LinkTitle>
+          <LinkItem >
+            Feel free to reach out if you're looking for a developer, or want to
+            discuss on something :)
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

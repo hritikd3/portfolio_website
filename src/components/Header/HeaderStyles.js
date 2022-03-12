@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Span= styled.span ` 
-font-size: 2rem;
+font-size: 2.2rem;
 
 ` ;
 
@@ -59,8 +59,11 @@ export const NavLink = styled.a`
   transition: 0.4s ease;
   &:hover {
     color: #fff;
-    opacity: 1;
+    opacity: 1.2;
     cursor: pointer;
+    padding: 0.3em;
+    border-radius: 10px;
+    background: #212d45;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
