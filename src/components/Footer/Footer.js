@@ -9,16 +9,16 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Mail </LinkTitle>
-          <LinkItem href="mailto:Hritikdangi3@gmail.com">
-            hritikdangi3@gmail.com{" "}
+          <LinkTitle>Let's Connect </LinkTitle>
+          <LinkItem>
+            Feel free to reach out if you're looking for a developer, or want to
+            discuss on something :)
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Let's Connect </LinkTitle>
-          <LinkItem >
-            Feel free to reach out if you're looking for a developer, or want to
-            discuss on something :)
+          <LinkTitle>Mail </LinkTitle>
+          <LinkItem href="mailto:Hritikdangi3@gmail.com">
+            hritikdangi3@gmail.com{" "}
           </LinkItem>
         </LinkColumn>
       </LinkList>

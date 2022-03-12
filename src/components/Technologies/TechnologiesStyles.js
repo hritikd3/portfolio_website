@@ -58,7 +58,7 @@ export const ListContainer = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    margin-left: 18px;
+    margin-left: 19px;
   }
 `;
 
@@ -104,7 +104,7 @@ export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
   background: #212D45;
-  padding: 23px;
+  padding: 22px;
   border-radius: 15px;
     &:hover {
     background: #3e3f42;
@@ -116,7 +116,7 @@ export const ListItem = styled.li`
 }
 
 @media ${(props) => props.theme.breakpoints.sm}{
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   max-width: 320px;
   flex-direction: row;
 }

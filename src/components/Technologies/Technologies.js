@@ -9,7 +9,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionDivider /> <br />
-    <SectionText>List of technolgoies i work on</SectionText>
+    <SectionText>List of technolgoies :-</SectionText>
     <List>
       <ListItem
         style={{ }}
