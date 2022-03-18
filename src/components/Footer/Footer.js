@@ -24,7 +24,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made with 💕 by Hritik</Slogan>
+          <Slogan>Made with ❤️ by Hritik <br/> Built with <b> Next.js </b> and <br>React </b></Slogan>
         </CompanyContainer>
         <SocialIcons href="https://www.github.com/hritikd3">
           <AiFillGithub size="3rem" />
